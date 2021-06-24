@@ -44,7 +44,8 @@ It will look like this:
     "MicrosoftAppId": "<SOME VALUE>",
     "MicrosoftAppPassword": "<SOME VALUE>"
   }
-}```
+}
+```
 
 When completed, you will see a message with a JSON "publishing profile" and instructions for using it in Composer.
 
