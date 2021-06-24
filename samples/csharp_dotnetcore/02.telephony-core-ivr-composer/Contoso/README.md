@@ -11,6 +11,7 @@ This project includes a script that can be used to provision the resources neces
 
 * From this project folder, navigate to the scripts/ folder
 * Run `npm install`
+* Run `npm install request --save`
 * Run `node provisionComposer.js --subscriptionId=<YOUR AZURE SUBSCRIPTION ID> --name=<NAME OF YOUR RESOURCE GROUP> --appPassword=<APP PASSWORD> --environment=<NAME FOR ENVIRONMENT DEFAULT to dev>`
 * You will be asked to login to the Azure portal in your browser.
 * You will see progress indicators as the provision process runs. Note that it will take roughly 10 minutes to fully provision the resources.
